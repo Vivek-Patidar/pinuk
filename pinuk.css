@@ -1,0 +1,40 @@
+.box1{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    background-color: yellow;
+}
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 20px solid yellow;
+    position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+  }
+.box2{
+    width: 100%;
+    height: 400px;
+    background-color:red;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: magenta;
+    display:grid;
+    align-content: center;
+    position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
